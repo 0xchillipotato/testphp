@@ -11,3 +11,4 @@ jobs:
       uses: projectdiscovery/nuclei-action@main
       with:
         target : http://testphp.vulnweb.com
+        flags: "-t ~/nuclei-templates/http/technologies"
